@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import pandas as pd
 
-# Dosya yolu belirtirken ters eğik çizgileri çift olarak veya 'r' öneki ile kullanın 
 df = pd.read_excel(r"C:\Users\seman\OneDrive\Masaüstü\lift up\veriseti.xlsx")
 
 # Veri setinden yıllar ve kümülatif değerlerin alınması
